@@ -12,10 +12,10 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #ffeef8 0%, #ffe0f0 100%);
+            background: linear-gradient(135deg, #e8d5ff 0%, #d4e8ff 50%, #ffe0f0 100%);
             min-height: 100vh;
             padding: 20px;
-            color: #6b4b5e;
+            color: #5a4b6b;
         }
 
         .container {
@@ -24,7 +24,7 @@
             background: rgba(255, 255, 255, 0.95);
             border-radius: 30px;
             padding: 30px 25px;
-            box-shadow: 0 10px 40px rgba(255, 182, 219, 0.3);
+            box-shadow: 0 10px 40px rgba(180, 160, 255, 0.3);
         }
 
         .header {
@@ -33,10 +33,10 @@
         }
 
         .header h1 {
-            color: #ff9ec7;
+            color: #a78bfa;
             font-size: 26px;
             margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(255, 182, 219, 0.3);
+            text-shadow: 2px 2px 4px rgba(167, 139, 250, 0.3);
         }
 
         .emoji {
@@ -45,15 +45,15 @@
         }
 
         .section {
-            background: linear-gradient(135deg, #fff5fa 0%, #ffe8f5 100%);
+            background: linear-gradient(135deg, #f5f3ff 0%, #eff6ff 50%, #fef2f9 100%);
             padding: 20px;
             border-radius: 20px;
             margin-bottom: 20px;
-            border: 2px solid #ffd4e8;
+            border: 2px solid #ddd6fe;
         }
 
         .section-title {
-            color: #ff9ec7;
+            color: #a78bfa;
             font-size: 18px;
             font-weight: bold;
             margin-bottom: 15px;
@@ -69,7 +69,7 @@
         label {
             display: block;
             margin-bottom: 8px;
-            color: #8b6b7e;
+            color: #6b5b8e;
             font-weight: 500;
             font-size: 14px;
         }
@@ -77,18 +77,18 @@
         input, select {
             width: 100%;
             padding: 12px 15px;
-            border: 2px solid #ffd4e8;
+            border: 2px solid #ddd6fe;
             border-radius: 15px;
             font-size: 15px;
             background: white;
-            color: #6b4b5e;
+            color: #5a4b6b;
             transition: all 0.3s;
         }
 
         input:focus, select:focus {
             outline: none;
-            border-color: #ff9ec7;
-            box-shadow: 0 0 0 3px rgba(255, 158, 199, 0.1);
+            border-color: #a78bfa;
+            box-shadow: 0 0 0 3px rgba(167, 139, 250, 0.1);
         }
 
         .btn {
@@ -104,24 +104,24 @@
         }
 
         .btn-primary {
-            background: linear-gradient(135deg, #ff9ec7 0%, #ffb3d9 100%);
+            background: linear-gradient(135deg, #a78bfa 0%, #c4b5fd 100%);
             color: white;
-            box-shadow: 0 5px 15px rgba(255, 158, 199, 0.4);
+            box-shadow: 0 5px 15px rgba(167, 139, 250, 0.4);
         }
 
         .btn-primary:hover {
             transform: translateY(-2px);
-            box-shadow: 0 7px 20px rgba(255, 158, 199, 0.5);
+            box-shadow: 0 7px 20px rgba(167, 139, 250, 0.5);
         }
 
         .btn-secondary {
-            background: linear-gradient(135deg, #e8b4ff 0%, #f0c4ff 100%);
+            background: linear-gradient(135deg, #93c5fd 0%, #bfdbfe 100%);
             color: white;
         }
 
         .btn-secondary:hover {
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(232, 180, 255, 0.4);
+            box-shadow: 0 5px 15px rgba(147, 197, 253, 0.4);
         }
 
         .result-card {
@@ -129,12 +129,12 @@
             padding: 20px;
             border-radius: 15px;
             margin-top: 15px;
-            border: 2px solid #ffd4e8;
+            border: 2px solid #ddd6fe;
         }
 
         .result-value {
             font-size: 32px;
-            color: #ff9ec7;
+            color: #a78bfa;
             font-weight: bold;
             text-align: center;
             margin: 10px 0;
@@ -142,7 +142,7 @@
 
         .result-label {
             text-align: center;
-            color: #8b6b7e;
+            color: #6b5b8e;
             font-size: 14px;
         }
 
@@ -151,16 +151,16 @@
             padding: 15px;
             border-radius: 15px;
             margin-top: 10px;
-            border-left: 4px solid #ff9ec7;
+            border-left: 4px solid #f9a8d4;
         }
 
         .menu-card h4 {
-            color: #ff9ec7;
+            color: #f9a8d4;
             margin-bottom: 8px;
         }
 
         .menu-card p {
-            color: #6b4b5e;
+            color: #5a4b6b;
             font-size: 14px;
             line-height: 1.6;
         }
@@ -170,11 +170,11 @@
             padding: 15px;
             border-radius: 15px;
             margin-top: 10px;
-            border-left: 4px solid #e8b4ff;
+            border-left: 4px solid #93c5fd;
         }
 
         .exercise-card h4 {
-            color: #e8b4ff;
+            color: #93c5fd;
             margin-bottom: 8px;
         }
 
@@ -189,7 +189,7 @@
             margin-top: 15px;
             max-height: 300px;
             overflow-y: auto;
-            border: 2px solid #ffd4e8;
+            border: 2px solid #ddd6fe;
         }
 
         .chat-message {
@@ -201,16 +201,16 @@
         }
 
         .user-message {
-            background: #ffe8f5;
-            color: #6b4b5e;
+            background: #e0e7ff;
+            color: #5a4b6b;
             margin-left: 20px;
         }
 
         .ai-message {
-            background: #fff5fa;
-            color: #6b4b5e;
+            background: #fce7f3;
+            color: #5a4b6b;
             margin-right: 20px;
-            border-left: 3px solid #ff9ec7;
+            border-left: 3px solid #a78bfa;
         }
 
         .chat-input-group {
@@ -239,11 +239,11 @@
             background: white;
             padding: 15px;
             border-radius: 12px;
-            border: 2px solid #ffd4e8;
+            border: 2px solid #ddd6fe;
         }
 
         .summary-item strong {
-            color: #ff9ec7;
+            color: #a78bfa;
             display: block;
             margin-bottom: 5px;
         }
@@ -254,7 +254,7 @@
         <div class="header">
             <h1>💖 My AI Body Care Assistant 💖</h1>
             <div class="emoji">💗</div>
-            <p style="color: #8b6b7e;">ดูแลสุขภาพคุณด้วยใจ</p>
+            <p style="color: #6b5b8e;">ดูแลสุขภาพคุณด้วยใจ</p>
         </div>
 
         <!-- ส่วนกรอกข้อมูล -->
@@ -587,18 +587,19 @@
                 
                 // พื้นหลัง gradient
                 const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
-                gradient.addColorStop(0, '#fff5fa');
-                gradient.addColorStop(1, '#ffe8f5');
+                gradient.addColorStop(0, '#e8d5ff');
+                gradient.addColorStop(0.5, '#d4e8ff');
+                gradient.addColorStop(1, '#ffe0f0');
                 ctx.fillStyle = gradient;
                 ctx.fillRect(0, 0, canvas.width, canvas.height);
                 
                 // วาดกรอบ
-                ctx.strokeStyle = '#ffd4e8';
+                ctx.strokeStyle = '#ddd6fe';
                 ctx.lineWidth = 4;
                 ctx.strokeRect(20, 20, canvas.width - 40, canvas.height - 40);
                 
                 // หัวข้อ
-                ctx.fillStyle = '#ff9ec7';
+                ctx.fillStyle = '#a78bfa';
                 ctx.font = 'bold 36px Arial';
                 ctx.textAlign = 'center';
                 ctx.fillText('💗 My AI Body Care Assistant 💗', canvas.width / 2, 80);
@@ -617,7 +618,7 @@
                     `⚡ พลังงานต่อวัน: ${userData.calories} แคลอรี่`
                 ];
                 
-                ctx.fillStyle = '#6b4b5e';
+                ctx.fillStyle = '#5a4b6b';
                 ctx.font = '24px Arial';
                 ctx.textAlign = 'left';
                 
@@ -627,19 +628,19 @@
                     ctx.fillStyle = '#ffffff';
                     ctx.fillRect(60, yPos - 30, canvas.width - 120, 60);
                     
-                    ctx.strokeStyle = '#ffd4e8';
+                    ctx.strokeStyle = '#ddd6fe';
                     ctx.lineWidth = 2;
                     ctx.strokeRect(60, yPos - 30, canvas.width - 120, 60);
                     
                     // ข้อความ
-                    ctx.fillStyle = '#6b4b5e';
+                    ctx.fillStyle = '#5a4b6b';
                     ctx.fillText(text, 80, yPos);
                     
                     yPos += 90;
                 });
                 
                 // วันที่
-                ctx.fillStyle = '#8b6b7e';
+                ctx.fillStyle = '#6b5b8e';
                 ctx.font = '18px Arial';
                 ctx.textAlign = 'center';
                 const today = new Date().toLocaleDateString('th-TH');
