@@ -33,7 +33,7 @@
         }
 
         .header h1 {
-            color: #a78bfa;
+            color: #6d50c7;
             font-size: 26px;
             margin-bottom: 10px;
             text-shadow: 2px 2px 4px rgba(167, 139, 250, 0.3);
